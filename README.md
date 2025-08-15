@@ -14,7 +14,7 @@
 ## Identidad Gráfica
 | Logo del Producto | Logo de la Marca |
 |-------------------|------------------|
-| ![Logo SmartHabits](logo_producto.png) | ![Logo Marca](logo_marca.png) |
+|  <img src="https://drive.google.com/file/d/1DV5QwylgRNZdotAAzExVuRZn0ZQw5kYp/view?usp=drive_link" alt="Kotlin"> | ![Logo Marca](logo_marca.png) |
 ---
 
 ## Descripción
