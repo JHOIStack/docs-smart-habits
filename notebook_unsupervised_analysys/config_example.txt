@@ -1,0 +1,16 @@
+# Configuración de conexiones para SmartHabits
+# Copia este archivo como .env y completa con tus datos reales
+
+# Configuración de Supabase
+SUPABASE_URL=https://your-project-id.supabase.co
+SUPABASE_ANON_KEY=your-supabase-anon-key
+
+# Configuración de API SmartHabits  
+SMARTHABITS_API_URL=http://localhost:3000/api
+
+# Opcional: Base de datos PostgreSQL directa
+DATABASE_URL=postgresql://user:password@localhost:5432/smarthabits
+
+# Variables de entorno
+DEBUG=true
+ENVIRONMENT=development
