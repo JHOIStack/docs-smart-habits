@@ -9,8 +9,7 @@
 </div>
 
 ## Introducción
-SmartHabits es una solución tecnológica diseñada para fomentar hábitos sostenibles mediante el uso de dispositivos wearables, específicamente relojes inteligentes con sistema operativo WearOS. Este proyecto busca integrar tecnología de uso cotidiano con prácticas responsables con el medio ambiente, promoviendo cambios de comportamiento a largo plazo. A través de una interfaz intuitiva y atractiva, los usuarios podrán registrar, monitorear y recibir retroalimentación sobre sus actividades diarias relacionadas con la sostenibilidad, como el ahorro energético, la reducción del consumo de agua, el transporte sustentable y la gestión responsable de residuos.
-La iniciativa surge ante la creciente necesidad de concientizar a la población sobre la crisis climática y la urgencia de modificar hábitos que impactan negativamente en el planeta. Con una combinación de gamificación, datos en tiempo real y recomendaciones personalizadas, SmartHabits se posiciona como una herramienta innovadora para convertir la sostenibilidad en un objetivo alcanzable y motivador.
+#### SmartHabits es una solución tecnológica diseñada para fomentar hábitos sostenibles mediante el uso de dispositivos wearables, específicamente relojes inteligentes con sistema operativo WearOS. Este proyecto busca integrar tecnología de uso cotidiano con prácticas responsables con el medio ambiente, promoviendo cambios de comportamiento a largo plazo. A través de una interfaz intuitiva y atractiva, los usuarios podrán registrar, monitorear y recibir retroalimentación sobre sus actividades diarias relacionadas con la sostenibilidad, como el ahorro energético, la reducción del consumo de agua, el transporte sustentable y la gestión responsable de residuos. La iniciativa surge ante la creciente necesidad de concientizar a la población sobre la crisis climática y la urgencia de modificar hábitos que impactan negativamente en el planeta. Con una combinación de gamificación, datos en tiempo real y recomendaciones personalizadas, SmartHabits se posiciona como una herramienta innovadora para convertir la sostenibilidad en un objetivo alcanzable y motivador.
 ---
 ## Identidad Gráfica
 | Logo del Producto | Logo de la Marca |
@@ -20,8 +19,7 @@ La iniciativa surge ante la creciente necesidad de concientizar a la población 
 
 ## Descripción
 
-SmartHabits es una aplicación para smartwatch que busca incentivar y facilitar la adopción de hábitos sostenibles en la vida diaria. Mediante un sistema de seguimiento de acciones, recompensas y recordatorios, el usuario puede establecer metas relacionadas con el ahorro de recursos, transporte ecológico y consumo responsable. La app se complementa con una plataforma web para análisis de datos y seguimiento de progreso.
-La aplicación está pensada para ser práctica, intuitiva y motivadora, incorporando elementos de gamificación como logros, puntos y rankings. Además, utiliza notificaciones inteligentes y análisis de datos para ofrecer recomendaciones personalizadas según el comportamiento del usuario.
+#### SmartHabits es una aplicación para smartwatch que busca incentivar y facilitar la adopción de hábitos sostenibles en la vida diaria. Mediante un sistema de seguimiento de acciones, recompensas y recordatorios, el usuario puede establecer metas relacionadas con el ahorro de recursos, transporte ecológico y consumo responsable. La app se complementa con una plataforma web para análisis de datos y seguimiento de progreso. La aplicación está pensada para ser práctica, intuitiva y motivadora, incorporando elementos de gamificación como logros, puntos y rankings. Además, utiliza notificaciones inteligentes y análisis de datos para ofrecer recomendaciones personalizadas según el comportamiento del usuario.
 ---
 ## Planteamiento del problema
  
