@@ -1,0 +1,119 @@
+  // This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  age       Int
+  region    Region?
+  createdAt DateTime @default(now())
+  role     UserRole @default(COMMON)
+
+  habits          UserHabit[]
+  recommendations Recommendation[]
+  interactions    Interaction[]
+  profile         Profile?
+}
+
+model Habit {
+  id          String        @id @default(uuid())
+  name        String
+  category    HabitCategory
+  description String
+
+  users UserHabit[]
+}
+
+model UserHabit {
+  id            String      @id @default(uuid())
+  user          User        @relation(fields: [userId], references: [id])
+  userId        String
+  habit         Habit       @relation(fields: [habitId], references: [id])
+  habitId       String
+  status        HabitStatus
+  scheduledTime String
+  completedAt   DateTime?
+}
+
+model Recommendation {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  message   String
+  createdAt DateTime @default(now())
+  shownTime String
+}
+
+model Interaction {
+  id        String          @id @default(uuid())
+  user      User            @relation(fields: [userId], references: [id])
+  userId    String
+  type      InteractionType
+  target    String
+  timestamp DateTime        @default(now())
+}
+
+model Profile {
+  id          String      @id @default(uuid())
+  user        User        @relation(fields: [userId], references: [id])
+  userId      String      @unique
+  profileType ProfileType
+  assignedAt  DateTime    @default(now())
+}
+
+enum Region {
+  NORTE
+  CENTRO
+  SUR
+  OCCIDENTE
+  SURESTE
+  CDMX
+  INTERNACIONAL
+}
+
+enum ProfileType {
+  ECO_PRINCIPIANTE
+  ECO_AVANZADO
+  ECO_EXPERTO
+}
+
+enum HabitCategory {
+  ENERGIA
+  AGUA
+  RESIDUOS
+  MOVILIDAD
+  CONSUMO
+}
+
+enum HabitStatus {
+  ACTIVO
+  PAUSADO
+  COMPLETADO
+  CANCELADO
+}
+
+enum InteractionType {
+  CLICK
+  IGNORE
+  COMPLETE
+  SKIP
+}
+
+enum UserRole {
+  COMMON
+  SUPER
+}
