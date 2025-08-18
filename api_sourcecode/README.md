@@ -77,11 +77,8 @@ DELETE /api/profiles/:id
 ### Ejemplo de rutas para Recomendaciones (ML)
 
 ```js
-GET    /api/recommendations
-GET    /api/recommendations/:id
-POST   /api/recommendations
-PUT    /api/recommendations/:id
-DELETE /api/recommendations/:id
+GET    /api/ml/supervised
+GET    /api/ml/unsupervised
 ```
 
 ### Ejemplo de rutas para Interacciones
@@ -139,11 +136,11 @@ Estos endpoints procesan los datos históricos y comportamientos para mejorar la
 
 ## 6. Screenshots de los Endpoints ML
 
-### Ejemplo Recomendaciones ML
-![ML Recomendaciones](screenshots/ml_recomendaciones.png)
+### Ejemplo Supervisado ML
+![ML Supervisado](images/Captura%20de%20pantalla%202025-08-17%20a%20la(s)%209.30.12 p.m..png)
 
-### Ejemplo Predicciones ML
-![ML Predicciones](screenshots/ml_predicciones.png)
+### Ejemplo no Supervisado ML
+![ML No supervisado](images/Captura%20de%20pantalla%202025-08-17%20a%20la(s)%209.30.29 p.m..png)
 
 ---
 
