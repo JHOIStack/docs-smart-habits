@@ -1,26 +1,47 @@
-# 📱 SmartHabits - App Werable para fomentar Hábitos Sostenibles  
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-  <img src="https://img.shields.io/badge/Wear_OS-4285F4?style=for-the-badge&logo=wear-os&logoColor=white" alt="Wear OS">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
-</div>
+  <h1> SmartHabits</h1>
+  <h3>App Werable para fomentar Hábitos Sostenibles</h3>
+
+---
+
 
 ## Introducción
 #### SmartHabits es una solución tecnológica diseñada para fomentar hábitos sostenibles mediante el uso de dispositivos wearables, específicamente relojes inteligentes con sistema operativo WearOS. Este proyecto busca integrar tecnología de uso cotidiano con prácticas responsables con el medio ambiente, promoviendo cambios de comportamiento a largo plazo. A través de una interfaz intuitiva y atractiva, los usuarios podrán registrar, monitorear y recibir retroalimentación sobre sus actividades diarias relacionadas con la sostenibilidad, como el ahorro energético, la reducción del consumo de agua, el transporte sustentable y la gestión responsable de residuos. La iniciativa surge ante la creciente necesidad de concientizar a la población sobre la crisis climática y la urgencia de modificar hábitos que impactan negativamente en el planeta. Con una combinación de gamificación, datos en tiempo real y recomendaciones personalizadas, SmartHabits se posiciona como una herramienta innovadora para convertir la sostenibilidad en un objetivo alcanzable y motivador.
 ---
-## Identidad Gráfica
-| Logo del Producto | Logo de la Marca |
-|-------------------|------------------|
-|  <img src="https://drive.google.com/file/d/1DV5QwylgRNZdotAAzExVuRZn0ZQw5kYp/view?usp=drive_link" alt="Kotlin"> | ![Logo Marca](logo_marca.png) |
+
+## Tecnologías principales
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="Typescript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/JWT-FFB300?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/Estilos-43B02A?style=for-the-badge" alt="Estilos">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white" alt="iOS">
+</div>
+
 ---
 
 ## Descripción
 
 #### SmartHabits es una aplicación para smartwatch que busca incentivar y facilitar la adopción de hábitos sostenibles en la vida diaria. Mediante un sistema de seguimiento de acciones, recompensas y recordatorios, el usuario puede establecer metas relacionadas con el ahorro de recursos, transporte ecológico y consumo responsable. La app se complementa con una plataforma web para análisis de datos y seguimiento de progreso. La aplicación está pensada para ser práctica, intuitiva y motivadora, incorporando elementos de gamificación como logros, puntos y rankings. Además, utiliza notificaciones inteligentes y análisis de datos para ofrecer recomendaciones personalizadas según el comportamiento del usuario.
 ---
+
+
+## Visualización 3D de Usuarios
+Usuarios en 3D según hábitos e interacciones:
+
+<div align="center">
+  <img src="assets/ ml.gif" alt="Visualización 3D de Usuarios" width="1200">
+  <img src="assets/mlmaps.gif" alt="Visualización por región" width="1200">
+</div>
 ## Planteamiento del problema
  
 Los hábitos cotidianos (consumo energético, plásticos, transporte) generan un impacto ambiental significativo. La falta de conciencia y herramientas accesibles dificulta la adopción de comportamientos sostenibles, especialmente en jóvenes. SmartEcoWatch aborda esta problemática mediante:  
