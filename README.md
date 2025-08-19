@@ -112,11 +112,6 @@ Promover hábitos sostenibles mediante una aplicación wearable con gamificació
 
 ---
 
-
-## Diagrama de Gantt
-*(Aquí se colocará el diagrama con las fases y tiempos del proyecto)*
-
----
 ## 🛠️ Instalación  
 ### Requisitos  
 - Android Studio (para Wear OS)  
